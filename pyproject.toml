@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compgraph"
+authors = [{ name = "Damir Achokh", email = "mboker@phystech.edu" }]
+description = "Algorithms with Map-Reduce calculations"
+requires-python = ">=3.8"
+license = {text = "BSD-3-Clause"}
+dependencies = ['click']
+readme = 'LIB_README.md'
+version = "1"
+
+[tool.setuptools]
+packages = ['compgraph']
